@@ -5,7 +5,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
 net user Mandu 123 /add >nul
 net localgroup administrators Mandu /add >nul
-net user LittleFox /active:yes >nul
+net user Mandu /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
 sc config Audiosrv start= off >nul
